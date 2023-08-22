@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    font-family:'Times New Roman', Times, serif;
-    padding-left: 480px;
-    padding-right: 480px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
-H1{
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    gap: 24px;
+}
+h1{
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -19,7 +28,16 @@ H1{
     width: 500px;
     
 }
-.container-boloimagem{
+.preparo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+footer{
+    padding: 25px 0;
     display: flex;
     justify-content: center;
+    
 }
